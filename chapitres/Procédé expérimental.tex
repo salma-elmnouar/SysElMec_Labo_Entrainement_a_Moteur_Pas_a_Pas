@@ -1,0 +1,31 @@
+\section{Méthode de mesure}
+\subsection{Liste de matériel}
+\begin{itemize}
+    \item Maquette N°1 : moteur pas-à-pas QMOT
+    \item Oscilloscope Tektronix DPO2014B, n°C011149.
+     \item Câbles RS-232 pour connexion au module
+    \item Alimentation 24V pour le moteur
+    \item Logiciel TMCL pour programmation du module
+    \item Fichiers TMCL de base : \texttt{TMCL.exe} et \texttt{MOV\_vide.tmc}
+\end{itemize}
+\subsection{Procédure de mesure}
+\begin{enumerate}
+    \item \textbf{Identification du moteur} : relever le numéro de maquette et identifier la référence du moteur pas-à-pas.
+    
+    \item \textbf{Programmation du module TMCL} :  
+    Télécharger et ouvrir les fichiers TMCL, identifier le port COM et établir la connexion. Paramétrer le courant selon le moteur, compiler (\texttt{Assemble}) et charger (\texttt{Download}) le programme. Utiliser \texttt{Run} et \texttt{Stop} pour contrôler le mouvement.
+
+    \item \textbf{Vérification des calculs} :  
+    Vérifier les valeurs calculées de \texttt{pulse\_div}, \texttt{velocity}, \texttt{ramp\_div}, \texttt{amax} et \(\vartheta_C\) via Setup → Parameter Calculation.
+
+    \item \textbf{Essais des profils} :  
+    Compléter \texttt{MOV\_vide.tmc} pour exécuter les profils, visualiser la vitesse sur l’oscilloscope et comparer avec les valeurs théoriques.
+
+    \item \textbf{Réduction du temps de mouvement} :  
+    Recalculer les paramètres pour des temps de 0.12 s à 0.08 s (pas de 0.01 s) et tracer les courbes pull-out pour identifier le temps minimal où le moteur suit la consigne.
+
+    \item \textbf{Micro-pas vs pas entiers (bonus)} :  
+    Pour le profil 1/6--2/3--1/6, recalculer les paramètres avec \texttt{Usrs = 0} pour 0.75 s et comparer le signal de vitesse avec celui en micro-pas.
+\end{enumerate}
+
+Cette méthode permet d’évaluer le comportement dynamique du moteur, de vérifier les calculs théoriques et de déterminer ses limites de performance.

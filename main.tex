@@ -1,0 +1,147 @@
+\documentclass{rapportCS}
+\usepackage{lastpage}
+\usepackage{makeidx}
+\usepackage{circuitikz}
+\usepackage[utf8]{inputenc}
+\usepackage{siunitx}
+\usetikzlibrary{babel}
+\usepackage{titlesec}
+\usepackage{array}      % colonnes m{...}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} % si tu es en pdfLaTeX
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{csvsimple}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+% Par exemple : 3 chiffres significatifs
+\sisetup{
+  round-mode=figures,
+  round-precision=4
+}
+
+\newcommand{\ResultatsSteelHead}{
+  \hline
+  Angle~[$^\circ$] & Wmag~[J] & Yba~[Wb] \\
+  \hline
+}
+
+
+\lstset{
+    language=Matlab,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!50!black},
+    stringstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny,
+    stepnumber=1,
+    numbersep=5pt,
+    showstringspaces=false,
+    breaklines=true
+}
+\titleformat{\paragraph}[block]{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\makeindex
+\title{Rapport de laboratoire template} %Thanks for Rapport CentraleSupelec - Template, By Axel Poupart-Lafarge
+\begin{document}
+
+%----------- Informations du rapport ---------
+
+\logoentreprise{logos/logo_hes.png}
+
+\titre{Rapport de laboratoire} 
+
+\mention{Département TIN}
+\trigrammemention{Elmnouar} 
+\master{Laboratoire de Systèmes électromécaniques} 
+\filiere{3ème année Microtechniques} 
+
+\eleve{Entraînement à moteur pas-à-pas}
+
+\dates{\today}
+
+% Informations tuteurs écoles
+\tuteurecole{
+    \textsc{Luc Bossoney} \\
+   luc.bossoney@heig-vd.ch\\
+    \medskip
+    \textsc{Gilles Rothermund}\\
+    gilles.rothermund@heig-vd.ch\\
+   
+} 
+
+\tuteurentreprise{
+    \textsc{Salma Elmnouar} \\
+    salma.elmnouar@heig-vd.ch \\
+    \medskip
+    \textsc{Julien Golaz}\\
+    julien.golaz@heig-vd.ch\\
+   
+}
+
+%----------- Initialisation -------------------
+        
+\fairemarges %Afficher les marges
+\clearpage 
+\fairepagedegarde %Créer la page de garde
+\clearpage 
+\tabledematieres{}
+\listoffigures
+\listoftables
+\newpage
+
+
+
+
+
+%------------ Corps du rapport ----------------
+\input{chapitres/Introduction}
+\newpage
+\input{chapitres/Théorie}
+\newpage
+\input{chapitres/Procédé expérimental}
+\newpage
+\input{chapitres/Résultats expérimentaux}
+\newpage
+\input{chapitres/Analyse des résultats}
+\newpage
+\input{chapitres/apport}
+\newpage
+\input{chapitres/Conclusion}
+
+\newpage
+\begin{thebibliography}{9}
+\label{bib}
+
+\bibitem{BossoneyLabo}
+Prof. L. Bossoney,  
+\textit{Systèmes électromécaniques, Labo : Entraînement à moteur pas-à-pas},  
+HEIG-VD, Yverdon-les-Bains.
+
+\bibitem{BossoneyCours}
+Prof. L. Bossoney,  
+\textit{Cours de systèmes électromécaniques},  
+HEIG-VD, Yverdon-les-Bains, 2021.
+
+\end{thebibliography}
+
+\vspace{2cm}  % espace avant la signature
+\noindent
+Fait à : \textbf{Yverdon-les-Bains le \today} 
+
+\vspace{2cm}  % espace avant les signatures
+\noindent
+\begin{tabular}{l l}
+\includegraphics[height=5cm]{logos/Salma_sign.png} &  \hspace{3.75cm} \includegraphics[height=2cm]{logos/SignatureJG.jpg} \\
+Salma Elmnouar & \hspace{5cm} Julien Golaz
+\end{tabular}
+
+\newpage
+\input{chapitres/Annexes}
+\end{document}
