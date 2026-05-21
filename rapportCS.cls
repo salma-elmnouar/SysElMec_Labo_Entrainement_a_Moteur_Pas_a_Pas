@@ -21,7 +21,7 @@
 %\setlength{\headheight}{2cm}
 \RequirePackage{url}
 \RequirePackage[hidelinks]{hyperref}%Paquet pour insérer légendes dans des sous-figures comme Figure 1a, 1b
-\RequirePackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry} %Configuration de la page
+\RequirePackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry} %Configuration de la page
 
 
 %-------------------- Informations sur le rapport ----------------------
@@ -48,12 +48,12 @@
 \fancyheadoffset{0.5cm}
 
 
-\setlength{\headheight}{30pt} % hauteur du header
+\setlength{\headheight}{46pt} % hauteur du header
 \lhead{\includegraphics[scale=0.08]{logos/HEIG-VD_logotype-baseline_rouge-rvb.png}\vspace{1mm}}
 \rhead{\nouppercase{\leftmark}}
 \rfoot{\thepage}
 \cfoot{\textbf{\titre}}
-\lfoot{Elmnouar, Golaz}
+\lfoot{Elmnouar, Steiner, Kilchör, Rossi}
 }
 
 \newcommand{\fairepagedegarde}{
@@ -97,16 +97,18 @@
 \begin{minipage}{0.4\textwidth}
 	\begin{flushleft} 
 	\emph{\textbf{Superviseurs:}}\\ 
-    \tuteurecole \\ 
+    \tuteurecole
 	\end{flushleft}
 \end{minipage}
 ~
 \begin{minipage}{0.4\textwidth}
 	\begin{flushright} 
 	\emph{\textbf{Fait par:}} \\
-	 \tuteurentreprise \\
+     \tuteurentreprise
 	\end{flushright}
-\end{minipage}\\[4cm]
+\end{minipage}
+
+\vspace{4cm}
     
 	\vfill
 	
