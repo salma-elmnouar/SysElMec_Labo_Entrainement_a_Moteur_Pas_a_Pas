@@ -1,38 +1,27 @@
 \section{Introduction}
 
+\section{Introduction}
+
 \subsection{Contexte du projet}
 
-Dans le cadre du cours de \textit{Micromécanique}, le projet consiste en la conception d’un robot SCARA parallèle de type mécanisme plan à cinq barres. Ce système devra être intégré sur un plateau de dimensions extérieures $700 \times 700$~mm et respecter l’ensemble des contraintes définies dans le cahier des charges du client.
+Dans le cadre du cours de micromécanique, le projet consiste à concevoir et dimensionner un robot SCARA parallèle destiné à des applications de démonstration, de manipulation légère et de mise en valeur des mécanismes internes. Le système repose sur une architecture parallèle plane à cinq barres, permettant de déplacer un organe terminal dans le plan horizontal à partir de deux actionneurs fixés sur la structure.
 
-Le robot est destiné à une utilisation en environnement intérieur (laboratoire/atelier). Une attention particulière devra être portée à l’esthétique et à la mise en évidence des mécanismes internes. En effet, a terme, on souhaiterait pouvoir l’intégrer sur un stand de présentation afin de mettre en valeur les compétences de la filière de microtechniques lors des portes ouvertes de la HEIG-VD. 
-L’architecture retenue repose sur deux moteurs fixes entraînant un mécanisme parallèle plan. Cette configuration permet de limiter les masses mobiles, d’améliorer les performances dynamiques et d’augmenter la rigidité du système dans le plan de travail. Le robot devra également intégrer un axe vertical $Z$ de course $30$~mm ainsi qu’un axe de rotation $\theta$ de $\pm 200^\circ$ sur le préhenseur .
+Le robot doit être intégré sur un plateau de dimensions imposées de \SI{700}{\milli\metre} par \SI{700}{\milli\metre}. Il doit respecter plusieurs contraintes fonctionnelles, notamment une masse maximale de \SI{15}{\kilo\gram}, une charge utile de \SI{30}{\gram}, un déplacement vertical selon l’axe $Z$ de \SI{30}{\milli\metre} ainsi qu’une rotation de l’organe terminal selon l’axe $\theta$. L’ensemble du système doit également rester compatible avec une utilisation en environnement intérieur, de type laboratoire ou atelier.
 
-\subsection{Problématique}
+La solution développée s’inscrit dans la continuité de la pré-étude réalisée lors du premier rendu. Celle-ci avait permis d’identifier l’architecture générale du robot, de comparer plusieurs solutions de transmission et de structure, puis de retenir une configuration basée sur des moteurs fixes, une transmission par courroies et une structure composée de deux pylônes. Le présent rapport constitue la phase de conception finale et vise à approfondir les choix techniques retenus par un dimensionnement mécanique plus détaillé.
 
-La conception d’un robot SCARA parallèle impose plusieurs défis techniques :
+\subsection{Objectifs du rapport}
 
+L’objectif principal de ce rapport est de présenter la conception finale du robot SCARA parallèle et de justifier les choix techniques effectués. Une attention particulière est portée au dimensionnement des actionneurs, à la transmission du mouvement, à la rigidité de la structure ainsi qu’au choix des éléments mécaniques standards.
+
+Les objectifs spécifiques du rapport sont les suivants :
 \begin{itemize}
-    \item Maximiser le volume de travail tout en respectant l’encombrement imposé.
-    \item Garantir que les éléments mobiles ne dépassent pas le périmètre du plateau lors des mouvements.
-    \item Gérer les singularités cinématiques propres aux mécanismes à cinq barres.
-    \item Assurer des performances dynamiques conformes aux exigences (vitesse et accélération).
-    \item Maintenir une masse totale inférieure à 15~kg.
-    \item Intégrer l’ensemble des actionneurs sur la partie fixe.
+    \item présenter le fonctionnement global du système et son architecture mécanique finale ;
+    \item justifier la sélection des actionneurs à partir des exigences de vitesse, d’accélération et de charge utile ;
+    \item dimensionner les éléments principaux de transmission, notamment les poulies, courroies et arbres ;
+    \item vérifier la cohérence mécanique des guidages, roulements, supports et éléments de structure ;
+    \item expliquer les choix de conception retenus pour le design final ;
+    \item identifier les limites du système et proposer des améliorations possibles.
 \end{itemize}
 
-Le dimensionnement devra concilier rigidité, précision, masse réduite et facilité d’assemblage. Une analyse fonctionnelle rigoureuse est nécessaire afin d’orienter les choix conceptuels et d’éviter des modifications majeures lors des phases ultérieures de conception détaillée.
-
-\subsection{Objectifs du rapport de pré-étude}
-
-Le présent rapport correspond à la phase de pré-étude du projet. Il a pour objectifs :
-
-\begin{enumerate}
-    \item D’analyser et formaliser les besoins du client sous forme d’un cahier des charges fonctionnel.
-    \item De réaliser un état de l’art des architectures de robots SCARA parallèles existantes.
-    \item D’établir un catalogue structuré de solutions techniques envisageables.
-    \item De comparer ces solutions à l’aide de critères pertinents.
-    \item De sélectionner et justifier une solution conceptuelle.
-    \item De réaliser un premier niveau de prédimensionnement.
-\end{enumerate}
-
-Cette phase constitue une étape déterminante du projet, car les choix conceptuels effectués conditionnent la faisabilité technique, les performances dynamiques, la complexité d’intégration ainsi que la qualité du design final.
+Ce rapport a ainsi pour but de démontrer que la solution proposée est mécaniquement cohérente, réalisable avec des composants standards et conforme aux exigences principales du cahier des charges.
