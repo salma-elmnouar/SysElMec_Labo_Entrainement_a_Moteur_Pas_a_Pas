@@ -1,0 +1,25 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Contexte du projet}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objectifs du rapport}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Vue d'ensemble du projet}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Caractéristiques globales du système}{4}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Explication du fonctionnement du système}{5}{section.3}%
+\contentsline {section}{\numberline {4}Calcul et sélection des actionneurs}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Hypothèses de dimensionnement}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Moteurs des axes principaux}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Moteurs des axes secondaires}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Sélection des moteurs}{8}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Dimensionnement des éléments de construction}{9}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Dimensionnement de la courroie}{9}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Dimensionnement des poulies}{9}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Dimensionnement des roulements}{9}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Dimensionnement du palier lisse}{9}{subsection.4.9}%
+\contentsline {section}{\numberline {5}Manuel de montage du démonstrateur}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Montage de la base}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Montage de la partie épaule}{10}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Montage de la partie coude}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Montage de la partie poignet}{10}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Assemblage final des sous-ensembles}{11}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Conclusion}{12}{section.6}%
+\contentsline {section}{\numberline {7}Annexes}{14}{section.7}%

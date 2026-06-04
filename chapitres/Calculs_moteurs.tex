@@ -1,6 +1,123 @@
 \section{Calcul et sélection des actionneurs}
-\subsection{1er moteur}
-\subsection{Calcul du couple nécessaire}
+En raison de la symétrie de l’architecture mécanique, le dimensionnement
+des actionneurs peut être réduit à deux cas distincts. Les moteurs $M_1$ et $M_3$
+assurent la même fonction sur deux sous-ensembles symétriques et sont donc soumis
+aux mêmes efforts. De même, les moteurs $M_2$ et $M_4$ entraînent les seconds bras
+des deux mécanismes et peuvent être dimensionnés de manière identique.
+%ajouter une figure avec les moteurs lequels sont les moteurs 1,2,3,4
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{images/robot_scara.png}
+\caption{Identification des moteurs $M_1$, $M_2$, $M_3$ et $M_4$}
+\label{fig:moteurs}
+\end{figure}
+Ainsi, deux dimensionnements sont nécessaires :
+\begin{itemize}
+    \item le dimensionnement du moteur de premier axe, appliqué à $M_1$ et $M_3$ ;
+    \item le dimensionnement du moteur de second axe, appliqué à $M_2$ et $M_4$.
+\end{itemize}
+\subsection{Hypothèses de dimensionnement}
 
+Le robot évolue principalement dans un plan horizontal. Les axes entraînés par
+les moteurs $M_1$, $M_2$, $M_3$ et $M_4$ sont des axes de rotation verticaux.
+Dans ces conditions, l’influence du poids sur le couple moteur autour de ces axes
+peut être négligée. Le dimensionnement est donc principalement gouverné par :
+\begin{itemize}
+    \item l’inertie des bras et des éléments embarqués ;
+    \item l’accélération angulaire imposée ;
+    \item les pertes dans la transmission ;
+    \item une marge de sécurité permettant de garantir un fonctionnement fiable.
+\end{itemize}
+
+Le couple nécessaire est évalué selon la relation suivante :
+\begin{equation}
+    C_{\mathrm{req}} = C_{\mathrm{dyn}} + C_{\mathrm{res}}
+\end{equation}
+où :
+\begin{itemize}
+    \item $C_{\mathrm{dyn}}$ représente le couple dynamique nécessaire à l’accélération ;
+    \item $C_{\mathrm{res}}$ représente un terme additionnel regroupant les frottements
+    et les incertitudes de modélisation.
+\end{itemize}
+
+Le couple dynamique s’exprime par :
+\begin{equation}
+    C_{\mathrm{dyn}} = J_{\mathrm{eq}} \, \alpha
+\end{equation}
+avec :
+\begin{itemize}
+    \item $J_{\mathrm{eq}}$ le moment d’inertie équivalent ramené à l’axe moteur ;
+    \item $\alpha$ l’accélération angulaire maximale.
+\end{itemize}
+
+En présence d’une transmission de rapport $i$ et de rendement $\eta$, le couple
+à fournir par le moteur devient :
+\begin{equation}
+    C_{\mathrm{mot}} = \frac{C_{\mathrm{req}}}{i \, \eta}
+\end{equation}
+
+Enfin, le moteur retenu doit vérifier :
+\begin{equation}
+    C_{\mathrm{nom}} \geq S \, C_{\mathrm{mot}}
+\end{equation}
+où $S$ désigne un coefficient de sécurité, généralement compris entre $1.5$ et $2$.
+\subsection{Moteurs des axes principaux}
+Les moteurs $M_1$ et $M_3$ entraînent les premiers bras des deux mécanismes
+symétriques. Ils doivent donc fournir le couple nécessaire pour accélérer
+l’ensemble mobile situé en aval du premier axe.
+
+Le couple dynamique est donné par :
+\begin{equation}
+    C_{\mathrm{dyn},13} = J_{\mathrm{eq},13} \cdot \alpha_{13}
+\end{equation}
+
+où $J_{\mathrm{eq},13}$ est le moment d’inertie équivalent autour de l’axe
+principal et $\alpha_{13}$ l’accélération angulaire maximale.
+
+En tenant compte du rapport de transmission $i_{13}$, du rendement $\eta_{13}$
+et d’un coefficient de sécurité $S$, le couple minimal du moteur est :
+\begin{equation}
+    C_{\mathrm{mot},13} =
+    S \cdot \frac{J_{\mathrm{eq},13} \cdot \alpha_{13}}{i_{13}\eta_{13}}
+\end{equation}
+
+Par symétrie :
+\begin{equation}
+    C_{M_1} = C_{M_3} = C_{\mathrm{mot},13}
+\end{equation}
+\subsection{Moteurs des axes secondaires}
+
+Les moteurs $M_2$ et $M_4$ entraînent les seconds bras. Ils sont soumis à une
+inertie plus faible, car seuls les éléments situés après le second axe sont pris
+en compte.
+
+Le couple dynamique est :
+\begin{equation}
+    C_{\mathrm{dyn},24} = J_{\mathrm{eq},24} \cdot \alpha_{24}
+\end{equation}
+
+Le couple minimal requis au niveau moteur est donc :
+\begin{equation}
+    C_{\mathrm{mot},24} =
+    S \cdot \frac{J_{\mathrm{eq},24} \cdot \alpha_{24}}{i_{24}\eta_{24}}
+\end{equation}
+
+Par symétrie :
+\begin{equation}
+    C_{M_2} = C_{M_4} = C_{\mathrm{mot},24}
+\end{equation}
 \subsection{Sélection des moteurs}
-\subsection{2er moteur}
+
+Les moteurs sont sélectionnés en vérifiant que leur couple nominal est supérieur
+au couple minimal calculé :
+\begin{equation}
+    C_{\mathrm{nom}} \geq C_{\mathrm{mot}}
+\end{equation}
+
+La vitesse maximale du moteur doit également être compatible avec la vitesse
+angulaire souhaitée en sortie de transmission :
+\begin{equation}
+    \omega_{\mathrm{mot}} = i \cdot \omega_{\mathrm{sortie}}
+\end{equation}
+
+Le choix final est résumé dans le tableau~\ref{tab:selection_moteurs}.
