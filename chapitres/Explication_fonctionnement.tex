@@ -1,2 +1,181 @@
 \section{Explication du fonctionnement du système}
+\subsection{Vue d'ensemble du projet}
+Le système développé est un robot SCARA à bras articulés destiné à assurer le déplacement d'un préhenseur dans un plan de travail défini.
 
+
+Il est composé de plusieurs sous-ensembles mécaniques assemblés entre eux, permettant la transmission du mouvement depuis les actionneurs jusqu'à l'organe terminal.
+Les figures~\ref{fig:vue_ensemble_systeme} et \ref{fig:parties_systeme} présentent une vue d'ensemble du système ainsi que les principaux éléments fonctionnels. Le robot peut être décomposé en trois zones principales : la partie épaule, la partie coude et la partie préhenseur. Les moteurs sont placés aux extrémités du système afin de limiter les masses embarquées sur les bras mobiles.
+La transmission du mouvement est assurée par un ensemble de poulies et de courroies.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{images/robot_scara.png}
+\caption{Vue d'ensemble du robot SCARA}
+\label{fig:vue_ensemble_systeme}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{images/parties_systèmes.png}
+\caption{Parties du système}
+\label{fig:parties_systeme}
+\end{figure}
+\subsubsection{Caractéristiques globales du système}
+Les principales caractéristiques du système sont résumées dans le tableau~\ref{tab:caracteristiques_globales}. 
+Ces grandeurs permettent de donner un ordre de grandeur du robot avant le détail du dimensionnement des composants.
+\begin{table}[H]
+\centering
+\caption{Caractéristiques globales du système}
+\label{tab:caracteristiques_globales}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Paramètre} & \textbf{Valeur} \\
+\hline
+Masse totale estimée & 3.89 kg \\
+\hline
+Encombrement maximal & 700 $\times$ 700 $\times$ 324 mm \\
+\hline
+Surface de travail & 49'493 mm$^2$ \\
+\hline
+Charge utile  & 30 g \\
+\hline
+Alimentation des moteurs & 5 V \\
+\hline
+\end{tabular}
+\end{table}
+\subsection{Sous-ensembles du système}
+
+Le système est constitué des sous-ensembles suivants :
+
+\begin{itemize}
+    \item la partie épaule, qui constitue l'interface avec la structure fixe et permet l'entraînement du premier axe ;
+    \item la partie coude, qui assure la liaison mécanique entre les bras et permet le mouvement relatif entre les différentes parties du robot ;
+    \item la partie préhenseur, située à l'extrémité du mécanisme, qui permet la prise ou le maintien de l'objet manipulé ;
+    \item la transmission par courroies et poulies, qui permet de transmettre le mouvement des moteurs vers les axes concernés ;
+    \item les moteurs pour actionner les bras ;
+    \item le circuit pneumatique, nécessaire à l'alimentation du préhenseur ;
+    \item les éléments de transport et de manutention, intégrés afin de faciliter le déplacement du système.
+\end{itemize}
+
+\subsection{Partie épaule}
+
+La partie épaule constitue le premier sous-ensemble mécanique du robot. Elle est fixée à un profilé \textit{item} qui sert de support (avec la plaque de base) à l'ensemble du mécanisme. 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{images/partie_epaule.png}
+\caption{Partie épaule du robot}
+\label{fig:partie_epaule}
+\end{figure}
+La Figure~\ref{fig:partie_epaule} présente les principaux éléments constituant la partie épaule. 
+
+Le moteur supérieur est relié à l'arbre par un accouplement flexible. Celui-ci permet de transmettre le couple moteur tout en compensant de faibles défauts d'alignement entre l'arbre moteur et l'arbre entraîné.
+Le guidage en rotation est assuré par des roulements à billes. Ces roulements permettent de reprendre les efforts radiaux générés par le mouvement du bras tout en limitant les frottements lors de la rotation.
+
+Leur positionnement est défini par des épaulements mécaniques, qui servent de surfaces d'appui et garantissent le maintien axial des composants. Des circlips sont ajoutés afin de sécuriser la position des roulements et d'éviter leur déplacement axial durant le fonctionnement.
+
+Un palier lisse est également intégré dans cette zone, permettant de guider la poulie d'entraînement du moteur.
+\newline
+Les étapes de montage de ce sous-ensemble ne sont pas détaillées dans cette partie du rapport. Elles sont présentées dans le manuel de montage ~\ref{chap:manuel_de_montage}, qui décrit l'ordre d'assemblage des composants.
+
+\subsection{Partie coude}
+La partie coude constitue une articulation intermédiaire du robot, assurant la liaison mécanique entre les bras supérieur et inférieur.  Cette articulation joue donc un rôle central dans le mouvement du mécanisme, puisqu'elle permet de transmettre le mouvement depuis la partie épaule vers la partie préhenseur.
+
+
+\begin{figure}[H]
+\centering  
+\includegraphics[width=0.8\textwidth]{images/partie_coude.png}
+\caption{Partie coude du robot}
+\label{fig:partie_coude}
+\end{figure}
+La Figure~\ref{fig:partie_coude} présente les principaux éléments constituant la partie coude.
+
+Elle permet la rotation relative entre ces deux éléments autour d'un axe vertical.
+
+Le guidage en rotation est assuré par des roulements à billes montés autour de l'arbre. Ces roulements permettent de limiter les frottements et d'assurer une rotation régulière de l'articulation. Les épaulements servent de surfaces d'appui pour positionner correctement les roulements et garantir leur maintien dans la direction axiale.
+Des circlips sont utilisés afin de bloquer axialement les différents éléments montés sur l'arbre.
+
+Le bras supérieur est relié à la partie supérieure de l'articulation, tandis que le bras inférieur est fixé sur l'arbre par serrage à l'aide d'une vis. Cette liaison permet de transmettre le mouvement de rotation à la suite du mécanisme.
+\newline
+Les étapes de montage sont présentées dans le manuel de montage ~\ref{chap:manuel_de_montage}.
+\subsection{Partie préhenseur}
+Le préhenseur constitue l'organe terminal du robot. Il est monté sur un support central, appelé support de préhenseur, qui assure la liaison entre les bras du robot et les éléments mécaniques du préhenseur. Cette pièce centrale permet de fixer à la fois les bras supérieur et inférieur, ainsi que les écrous du préhenseur.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/prehenseur.png}
+    \caption{Partie préhenseur du robot}
+    \label{fig:prehenseur}
+\end{figure}
+
+La transmission du mouvement vers le préhenseur est assurée par des courroies synchrones. Les poulies reliées à ces courroies sont directement vissées sur les écrous du préhenseur.
+\newline
+Le bras supérieur est fixé au support de préhenseur par l'intermédiaire d'un roulement à billes.\newline Ce roulement est maintenu axialement par deux épaulements, ce qui permet de garantir son positionnement tout en autorisant la rotation relative nécessaire au fonctionnement du mécanisme.\newline Le bras inférieur est également vissé sur le méplat du support de préhenseur comme illustré sur la figure~\ref{fig:prehenseur2}, afin d'assurer la liaison mécanique avec le reste de la structure.
+La Figure~\ref{fig:prehenseur} présente une vue en coupe de l'assemblage du préhenseur. Elle met en évidence le support central, les bras supérieur et inférieur, le roulement à billes ainsi qu'une poulie vissée \footnote{A cause de problèmes de toolbox dans Solidworks, les vis ne sont pas représentées dans cette coupe.} sur les écrous du préhenseur.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/prehenseur2.png}
+    \caption{Fixation du bras inférieur sur le préhenseur}
+    \label{fig:prehenseur2}
+\end{figure}
+
+\subsection{Transmission}
+
+La transmission du mouvement entre les moteurs et les différents axes du robot est assurée par des courroies synchrones et des poulies. Ce choix permet de déporter certains entraînements tout en conservant les moteurs sur les parties fixes ou peu mobiles du système. La masse embarquée sur les bras est ainsi réduite, ce qui améliore le comportement dynamique du robot.
+
+Le système comporte au total six courroies synchrones. Quatre tendeurs sont intégrés afin d'assurer une tension correcte des courroies et de limiter les risques de glissement ou de perte de précision lors du fonctionnement. Le positionnement des courroies ainsi que des tendeurs est présenté sur la Figure~\ref{fig:transmission}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{images/transmission.png}
+    \caption{Transmission du mouvement entre les moteurs et les axes du robot}
+    \label{fig:transmission}
+\end{figure}
+Certaines courroies ne nécessitent toutefois pas de tendeur. C'est notamment le cas des courroies reliant les poulies motrices aux poulies situées sur la partie épaule. En raison de la faible distance entre ces poulies, la longueur libre de courroie est réduite et la mise en tension peut être assurée directement par le montage, sans ajout d'un système de tension supplémentaire.
+
+Dans certaines zones du robot, notamment au niveau de la partie coude, des poulies à deux niveaux sont utilisées. Cette configuration permet de placer deux courroies dans des plans verticaux différents. L'objectif est d'éviter que la courroie provenant de la partie épaule ne se croise ou ne se superpose avec la courroie allant vers la partie préhenseur. Cette séparation verticale des plans de transmission permet ainsi de limiter les risques d'interférence entre les courroies.
+
+Les poulies à deux niveaux ont été conçues spécifiquement pour cette application et réalisées sur mesure à partir d'éléments configurables Misumi. Cette adaptation a permis de tenir compte du diamètre des arbres, des épaullements nécessaires au montage ainsi que de l'encombrement disponible dans les différentes parties du robot.
+
+Le bon fonctionnement de la transmission dépend également de l'alignement des poulies et de la tension des courroies. Un mauvais alignement pourrait provoquer une usure prématurée des courroies, une augmentation des frottements ou une perte de précision dans la transmission du mouvement.
+
+
+
+\subsection{Pneumatique}
+
+L'alimentation pneumatique du préhenseur est assurée par un tuyau guidé le long de la structure du robot. Un raccord pneumatique est fixé sur la plaque de base du système, comme illustré à la Figure~\ref{fig:raccord_pneumatique}. Ce raccord permet de créer un point d'entrée fixe pour l'alimentation en air comprimé, tout en facilitant le raccordement du tuyau vers la partie mobile du robot.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/raccord_pneumatique.png}
+    \caption{Raccord pneumatique pour l'alimentation du préhenseur}
+    \label{fig:raccord_pneumatique}
+\end{figure}
+
+Le tuyau passe ensuite par ce raccord avant d'être dirigé vers une fixation pneumatique montée sur un tendeur de courroie situé au niveau de l'avant-bras. Cette fixation, présentée à la Figure~\ref{fig:fixation_pneumatique}, permet de guider le tuyau et de limiter ses déplacements non contrôlés pendant le fonctionnement du robot.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/fixation_pneumatique.png}
+    \caption{Fixation pneumatique sur le tendeur de courroie}
+    \label{fig:fixation_pneumatique}
+\end{figure}
+
+Un léger mou doit être conservé au niveau du tuyau afin de permettre les mouvements relatifs entre les différentes parties du robot. Cette réserve de longueur évite que le tuyau ne soit mis en traction lors des déplacements de l'avant-bras ou du préhenseur, ce qui pourrait gêner le mouvement ou endommager le raccordement pneumatique.
+
+
+\subsection{Transport et manutention du système}
+Le robot étant destiné à être utilisé comme support de démonstration, son transport et sa manutention doivent également être pris en compte dans la conception.
+Le système doit pouvoir être déplacé facilement, tout en limitant les risques d'endommagement des composants mécaniques.
+\newline
+Des poignées de transport ont donc été intégrées à la structure afin de faciliter la prise en main du robot lors des déplacements. Leur positionnement permet de manipuler l'ensemble de manière plus sûre, sans devoir saisir directement les bras, les moteurs ou les éléments de transmission.
+\newline
+Un dispositif de blocage mécanique présenté à la Figure ~\ref{fig:dispositif_blocage} a également été prévu afin d'immobiliser les bras du robot lors du transport.
+Ce dispositif est composé de deux parties :
+\begin{itemize}
+    \item Une goupille permet de verrouiller un bras en position, empêchant ainsi tout mouvement pendant le transport. Cette goupille est facilement accessible et peut être retirée ou insérée rapidement comme indiqué sur la Figure~\ref{fig:dispositif_blocage}.;
+    \item Une pièce de blocage, pouvant se fixer sur la structure permet de verouiller le préhenseur, comme indiqué sur la Figure~\ref{fig:dispositif_blocage}.
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/dispositif_blocage.png}
+    \includegraphics[width=0.8\textwidth]{images/poignee.png}
+    \caption{Dispositif de blocage mécanique des bras du robot et poignées de transport }
+    \label{fig:dispositif_blocage}
+\end{figure}

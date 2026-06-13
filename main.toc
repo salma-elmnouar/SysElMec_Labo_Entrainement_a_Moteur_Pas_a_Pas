@@ -2,24 +2,36 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Contexte du projet}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Objectifs du rapport}{3}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Vue d'ensemble du projet}{4}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Caractéristiques globales du système}{4}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Explication du fonctionnement du système}{5}{section.3}%
-\contentsline {section}{\numberline {4}Calcul et sélection des actionneurs}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Hypothèses de dimensionnement}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Moteurs des axes principaux}{7}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Moteurs des axes secondaires}{7}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Sélection des moteurs}{8}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Dimensionnement des éléments de construction}{9}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Dimensionnement de la courroie}{9}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Dimensionnement des poulies}{9}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Dimensionnement des roulements}{9}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Dimensionnement du palier lisse}{9}{subsection.4.9}%
-\contentsline {section}{\numberline {5}Manuel de montage du démonstrateur}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Montage de la base}{10}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Montage de la partie épaule}{10}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Montage de la partie coude}{10}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Montage de la partie poignet}{10}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Assemblage final des sous-ensembles}{11}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Conclusion}{12}{section.6}%
-\contentsline {section}{\numberline {7}Annexes}{14}{section.7}%
+\contentsline {section}{\numberline {2}Explication du fonctionnement du système}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Vue d'ensemble du projet}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Caractéristiques globales du système}{4}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Sous-ensembles du système}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Partie épaule}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Partie coude}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Partie préhenseur}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Transmission}{9}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Pneumatique}{9}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Transport et manutention du système}{10}{subsection.2.8}%
+\contentsline {section}{\numberline {3}Calcul et sélection des actionneurs}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Hypothèses de dimensionnement}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Moteurs des axes principaux}{13}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Moteurs des axes secondaires}{13}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Sélection des moteurs}{14}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Surface de travail}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Dimensionnement des éléments de construction}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Dimensionnement de la courroie}{16}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Dimensionnement des poulies}{16}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Dimensionnement des roulements}{16}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Dimensionnement du palier lisse}{16}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Améliorations et recommandations}{17}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Optimisation de la rigidité}{17}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Réduction des jeux mécaniques}{17}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Amélioration esthétique}{17}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Manuel de montage du démonstrateur}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Montage de la base}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Montage de la partie épaule}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Montage de la partie coude}{18}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Montage de la partie poignet}{19}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Assemblage final des sous-ensembles}{19}{subsection.6.5}%
+\contentsline {section}{\numberline {7}Conclusion}{20}{section.7}%
+\contentsline {section}{\numberline {8}Annexes}{22}{section.8}%

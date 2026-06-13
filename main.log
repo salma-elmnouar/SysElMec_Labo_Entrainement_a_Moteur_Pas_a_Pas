@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  4 JUN 2026 11:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  13 JUN 2026 21:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -867,14 +867,14 @@ Package hyperref Info: Link coloring OFF on input line 52.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 702.78308pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=483.69687pt
 * \textheight=702.78308pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-38.1381pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -898,16 +898,11 @@ Package tocbasic Info: setting babel extension for `lol' on input line 52.
 \openout7 = `main.nlo'.
 
 Package nomencl Info: Writing nomenclature file main.nlo on input line 96.
-<logos/logo_hes.png, id=103, 308.15125pt x 164.615pt>
+<logos/logo_hes.png, id=151, 308.15125pt x 164.615pt>
 File: logos/logo_hes.png Graphic file (type png)
 <use logos/logo_hes.png>
 Package pdftex.def Info: logos/logo_hes.png  used on input line 98.
-(pdftex.def)             Requested size: 145.11053pt x 77.51976pt.
-<logos/HEIG-VD_logotype-baseline_rouge-rvb.png, id=104, 1186.9143pt x 418.2024pt>
-File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
-<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
-Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 98.
-(pdftex.def)             Requested size: 145.11053pt x 51.12654pt.
+(pdftex.def)             Requested size: 142.20992pt x 75.96997pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 98.
 (c:/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -930,10 +925,20 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 98.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 98.
+<logos/HEIG-VD_logotype-baseline_rouge-rvb.png, id=152, 1186.9143pt x 418.2024pt>
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 98.
+(pdftex.def)             Requested size: 142.20992pt x 50.10555pt.
+<Images/robot_scara.png, id=154, 849.1725pt x 543.53062pt>
+File: Images/robot_scara.png Graphic file (type png)
+<use Images/robot_scara.png>
+Package pdftex.def Info: Images/robot_scara.png  used on input line 98.
+(pdftex.def)             Requested size: 290.22107pt x 185.76001pt.
  [1
 
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./logos/logo_hes.png> <./logos/HEIG-VD_logotype-baseline_rouge-rvb.png>] (./main.toc)
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./logos/logo_hes.png> <./logos/HEIG-VD_logotype-baseline_rouge-rvb.png> <./Images/robot_scara.png>] (./main.toc)
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
@@ -972,84 +977,187 @@ File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
 <use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
 Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 111.
 (pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [3] (./chapitres/Vue_densemble.tex
-<images/robot_scara.png, id=165, 634.62094pt x 405.01312pt>
+ [3] (./chapitres/Explication_fonctionnement.tex
+<images/robot_scara.png, id=249, 849.1725pt x 543.53062pt>
 File: images/robot_scara.png Graphic file (type png)
 <use images/robot_scara.png>
-Package pdftex.def Info: images/robot_scara.png  used on input line 5.
-(pdftex.def)             Requested size: 386.95897pt x 246.96494pt.
+Package pdftex.def Info: images/robot_scara.png  used on input line 11.
+(pdftex.def)             Requested size: 386.95897pt x 247.68002pt.
+<images/parties_systèmes.png, id=250, 837.88031pt x 365.86688pt>
+File: images/parties_systèmes.png Graphic file (type png)
+<use images/parties_systèmes.png>
+Package pdftex.def Info: images/parties_systèmes.png  used on input line 17.
+(pdftex.def)             Requested size: 483.69687pt x 211.20921pt.
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 49.
+(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
+ [4{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./Images/robot_scara.png>]
+<images/partie_epaule.png, id=258, 712.91344pt x 442.65375pt>
+File: images/partie_epaule.png Graphic file (type png)
+<use images/partie_epaule.png>
+Package pdftex.def Info: images/partie_epaule.png  used on input line 63.
+(pdftex.def)             Requested size: 386.95897pt x 240.2655pt.
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 67.
+(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
+ [5 <./images/parties_systèmes.png>]
+<images/partie_coude.png, id=266, 709.14937pt x 453.19313pt>
+File: images/partie_coude.png Graphic file (type png)
+<use images/partie_coude.png>
+Package pdftex.def Info: images/partie_coude.png  used on input line 84.
+(pdftex.def)             Requested size: 386.95897pt x 247.29999pt.
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 88.
+(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
+ [6 <./Images/partie_epaule.png>]
+<images/prehenseur.png, id=275, 822.82407pt x 422.32782pt>
+File: images/prehenseur.png Graphic file (type png)
+<use images/prehenseur.png>
+Package pdftex.def Info: images/prehenseur.png  used on input line 102.
+(pdftex.def)             Requested size: 386.95897pt x 198.61009pt.
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 106.
+(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
+ [7 <./Images/partie_coude.png>]
+<images/prehenseur2.png, id=284, 660.21657pt x 371.13657pt>
+File: images/prehenseur2.png Graphic file (type png)
+<use images/prehenseur2.png>
+Package pdftex.def Info: images/prehenseur2.png  used on input line 114.
+(pdftex.def)             Requested size: 386.95897pt x 217.53024pt.
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 122.
+(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
+ [8 <./Images/prehenseur.png> <./Images/prehenseur2.png>]
+<images/transmission.png, id=295, 1116.42094pt x 391.4625pt>
+File: images/transmission.png Graphic file (type png)
+<use images/transmission.png>
+Package pdftex.def Info: images/transmission.png  used on input line 126.
+(pdftex.def)             Requested size: 483.69687pt x 169.60385pt.
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 143.
+(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
+ [9 <./Images/transmission.png>]
+<images/raccord_pneumatique.png, id=302, 167.12437pt x 134.00063pt>
+File: images/raccord_pneumatique.png Graphic file (type png)
+<use images/raccord_pneumatique.png>
+Package pdftex.def Info: images/raccord_pneumatique.png  used on input line 146.
+(pdftex.def)             Requested size: 193.47578pt x 155.14227pt.
+<images/fixation_pneumatique.png, id=304, 666.49pt x 402.50375pt>
+File: images/fixation_pneumatique.png Graphic file (type png)
+<use images/fixation_pneumatique.png>
+Package pdftex.def Info: images/fixation_pneumatique.png  used on input line 155.
+(pdftex.def)             Requested size: 386.95897pt x 233.69186pt.
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 171.
+(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
+ [10 <./Images/raccord_pneumatique.png> <./Images/fixation_pneumatique.png (PNG copy)>]
+<images/dispositif_blocage.png, id=313, 859.21pt x 474.77374pt>
+File: images/dispositif_blocage.png Graphic file (type png)
+<use images/dispositif_blocage.png>
+Package pdftex.def Info: images/dispositif_blocage.png  used on input line 177.
+(pdftex.def)             Requested size: 241.84843pt x 133.63844pt.
+<images/poignee.png, id=314, 832.61063pt x 467.49657pt>
+File: images/poignee.png Graphic file (type png)
+<use images/poignee.png>
+Package pdftex.def Info: images/poignee.png  used on input line 178.
+(pdftex.def)             Requested size: 386.95897pt x 217.26952pt.
 )
 File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
 <use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
 Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 113.
 (pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [4{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./Images/robot_scara.png>] (./chapitres/Explication_fonctionnement.tex)
-File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
-<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
-Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 115.
-(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [5] (./chapitres/Calculs_moteurs.tex
+ [11 <./Images/dispositif_blocage.png (PNG copy)> <./Images/poignee.png>] (./chapitres/Calculs_moteurs.tex
 File: images/robot_scara.png Graphic file (type png)
 <use images/robot_scara.png>
 Package pdftex.def Info: images/robot_scara.png  used on input line 10.
-(pdftex.def)             Requested size: 386.95897pt x 246.96494pt.
+(pdftex.def)             Requested size: 386.95897pt x 247.68002pt.
 File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
 <use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
 Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 46.
 (pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [6]
+ [12]
 File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
 <use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
 Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 115.
 (pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [7]
+ [13]
 
-LaTeX Warning: Reference `tab:selection_moteurs' on page 8 undefined on input line 123.
+LaTeX Warning: Reference `tab:selection_moteurs' on page 14 undefined on input line 123.
 
+)
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 115.
+(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
+ [14] (./chapitres/Surface de travail.tex
+<images/surface de travail.png, id=348, 300.12125pt x 300.12125pt>
+File: images/surface de travail.png Graphic file (type png)
+<use images/surface de travail.png>
+Package pdftex.def Info: images/surface de travail.png  used on input line 5.
+(pdftex.def)             Requested size: 386.95897pt x 386.99316pt.
 )
 File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
 <use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
 Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 117.
 (pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [8] (./chapitres/Calculs_élements.tex
+ [15{c:/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./Images/surface de travail.png>] (./chapitres/Calculs_élements.tex
 File: images/robot_scara.png Graphic file (type png)
 <use images/robot_scara.png>
 Package pdftex.def Info: images/robot_scara.png  used on input line 11.
-(pdftex.def)             Requested size: 241.84843pt x 154.34535pt.
+(pdftex.def)             Requested size: 241.84843pt x 154.80002pt.
 )
 File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
 <use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
 Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 119.
 (pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [9] (./chapitres/manuel_de_montage.tex
-File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
-<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
-Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 50.
-(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [10])
+ [16] (./chapitres/ameliorations.tex)
 File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
 <use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
 Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 121.
 (pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [11] (./chapitres/Conclusion.tex)
+ [17] (./chapitres/manuel_de_montage.tex
 File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
 <use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
-Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 124.
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 64.
 (pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [12]
+ [18])
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 123.
+(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
+ [19] (./chapitres/Conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
-LaTeX Warning: Empty `thebibliography' environment on input line 129.
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--24
+
+ []
+
+)
 File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
 <use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
-Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 132.
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 126.
 (pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
-[13] (./chapitres/Annexes.tex)
+ [20]
 File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
 <use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
-Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 134.
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 142.
 (pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
- [14] 
+ [21] (./chapitres/Annexes.tex)
+File: logos/HEIG-VD_logotype-baseline_rouge-rvb.png Graphic file (type png)
+<use logos/HEIG-VD_logotype-baseline_rouge-rvb.png>
+Package pdftex.def Info: logos/HEIG-VD_logotype-baseline_rouge-rvb.png  used on input line 144.
+(pdftex.def)             Requested size: 94.95508pt x 33.45686pt.
+ [22] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./main.aux)
  ***********
@@ -1061,21 +1169,21 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2E3A614E648BC0DC841E3792BE5C1CF2;4692.
+(rerunfilecheck)             Checksum: B4E0F2BC7964EAAE59B646F10B115081;6744.
  ) 
 Here is how much of TeX's memory you used:
- 51414 strings out of 467533
- 1221141 string characters out of 5423669
- 2080186 words of memory out of 5000000
- 79640 multiletter control sequences out of 15000+600000
- 677951 words of font info for 64 fonts, out of 8000000 for 9000
+ 51569 strings out of 467533
+ 1224924 string characters out of 5423669
+ 2083214 words of memory out of 5000000
+ 79751 multiletter control sequences out of 15000+600000
+ 683933 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,17n,121p,716b,1170s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (15 pages, 434428 bytes).
+ 125i,17n,121p,716b,1146s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (23 pages, 2217166 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
- 85 named destinations out of 1000 (max. 500000)
- 220 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 511 PDF objects out of 1000 (max. 8388607)
+ 427 compressed objects within 5 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 376 words of extra memory for PDF output out of 10000 (max. 10000000)
 

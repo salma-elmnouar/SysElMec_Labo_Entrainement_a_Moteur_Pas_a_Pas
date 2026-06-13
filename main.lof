@@ -1,4 +1,14 @@
 \babel@toc {french}{}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Vue d'ensemble du robot SCARA}}{4}{figure.caption.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Identification des moteurs $M_1$, $M_2$, $M_3$ et $M_4$}}{6}{figure.caption.4}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Forces appliquées sur les roulements}}{9}{figure.caption.5}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Vue d'ensemble du robot SCARA}}{4}{figure.caption.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Parties du système}}{5}{figure.caption.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Partie épaule du robot}}{6}{figure.caption.4}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Partie coude du robot}}{7}{figure.caption.5}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Partie préhenseur du robot}}{8}{figure.caption.6}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Fixation du bras inférieur sur le préhenseur}}{8}{figure.caption.7}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Transmission du mouvement entre les moteurs et les axes du robot}}{9}{figure.caption.8}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Raccord pneumatique pour l'alimentation du préhenseur}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Fixation pneumatique sur le tendeur de courroie}}{10}{figure.caption.10}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Dispositif de blocage mécanique des bras du robot et poignées de transport }}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Identification des moteurs $M_1$, $M_2$, $M_3$ et $M_4$}}{12}{figure.caption.12}%
+\contentsline {figure}{\numberline {12}{\ignorespaces surface de travail}}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Forces appliquées sur les roulements}}{16}{figure.caption.14}%

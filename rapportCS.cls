@@ -21,7 +21,7 @@
 %\setlength{\headheight}{2cm}
 \RequirePackage{url}
 \RequirePackage[hidelinks]{hyperref}%Paquet pour insérer légendes dans des sous-figures comme Figure 1a, 1b
-\RequirePackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry} %Configuration de la page
+\RequirePackage[left=2cm,right=2cm,top=2cm,bottom=3cm]{geometry} %Configuration de la page
 
 
 %-------------------- Informations sur le rapport ----------------------
@@ -62,23 +62,29 @@
 
 
 \centering %Centraliser le contenu
+\vspace*{-3.2cm}
 
 % Logo Entreprise x ecole
-\begin{figure}
-    \begin{subfigure}{.5\textwidth}
-        \centering
-        \includegraphics[width=0.6\textwidth]{\logoentreprise}\par\vspace{1cm}
-    \end{subfigure}%
-    \begin{subfigure}{.5\textwidth}
-        \centering
-        \includegraphics[width=0.6\textwidth]{logos/HEIG-VD_logotype-baseline_rouge-rvb.png}\par\vspace{1cm} %Insertion du logo Ecole
-    \end{subfigure}
-\end{figure}
+\noindent
+\begin{minipage}[c]{0.49\textwidth}
+    \centering
+    \includegraphics[width=0.6\textwidth]{\logoentreprise}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.49\textwidth}
+    \centering
+    \includegraphics[width=0.6\textwidth]{logos/HEIG-VD_logotype-baseline_rouge-rvb.png} %Insertion du logo Ecole
+\end{minipage}
+\par\vspace{0.8cm}
 
 % Titre du rapport
 \rule{\linewidth}{0.2 mm} \\[0.4 cm]
 {\huge\bfseries \titre \par} 
 \rule{\linewidth}{0.2 mm} \\[1.0 cm]
+
+% Illustration du projet
+\includegraphics[width=0.6\textwidth]{Images/robot_scara.png}\par
+\vspace{1.0cm}
 
 % Nom de l'étudiant
 {\scshape\LARGE \eleve \par} 
@@ -91,7 +97,7 @@
 % Dates
 {\large \dates \par} 
 
-\vspace{6cm}
+%\vspace{2cm}
 
 % Représentants de l'étudiant
 \begin{minipage}{0.4\textwidth}
